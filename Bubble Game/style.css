@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(179, 218, 179);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#pannel{
+    width: 80%;
+    height: 80%;
+    background-color:white;
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+.ptop{
+    width: 100%;
+    height: 100px;
+    padding: 0 20%;
+    background-color: rgb(82, 118, 82);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.elem{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.elem h2{
+    color: #fff;
+    font-weight: 400;
+    margin-right: 10px;
+    font-size: 22px;
+}
+.box{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(52, 132, 52);
+    padding:10px 20px ;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.p-btm{
+    width: 100%;
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding:20px 20px;
+
+}
+
+.bubble{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(75, 114, 75);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight:500;
+    transition: all 0.5s ease-in;
+}
+.bubble:hover{
+    background-color: rgb(40, 99, 40);
+}
+
+.r-container{
+    width: 25%;
+    height: 250px;
+    color: #fff;
+    border-radius: 20px;
+    background-color: rgb(82, 118, 82);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+    h1{
+        font-size: 35px;
+        margin-bottom: 20px;
+        
+    }
+}
