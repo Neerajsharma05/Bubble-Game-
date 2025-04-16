@@ -124,7 +124,7 @@ html, body{
 }
 
 /* -----------------For small screens----------- */
-@media screen and (width < 425px) {
+@media screen and (width < 475px) {
     .ptop{
         padding: 0 0;
         gap: 10px;
@@ -173,6 +173,9 @@ html, body{
 @media screen and (width > 425px ) and (width <1024px){
     .ptop{
         padding: 0 0;
+        h2{
+            font-size: 18px;
+        }
     }
     
     .r-container{
