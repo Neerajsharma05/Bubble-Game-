@@ -20,6 +20,8 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 30px;
+    flex-direction: column;
 
 }
 
@@ -107,5 +109,77 @@ html, body{
         font-size: 35px;
         margin-bottom: 20px;
         
+    }
+}
+
+#start-btn{
+    padding: 10px 25px ;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgb(82, 118, 82);
+    color: white;
+    
+}
+
+/* -----------------For small screens----------- */
+@media screen and (width < 425px) {
+    .ptop{
+        padding: 0 0;
+        gap: 10px;
+        height:100px;
+
+        .box{
+            padding: 1px px;
+        }
+        h2{
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+    } 
+    
+    .p-btm{
+        height: 400px;
+        gap: 10px;
+        padding: 10px 10px;
+        overflow: hidden;
+    }
+    .bubble{
+        width: 40px;
+        height: 40px;
+    }
+    #pannel{
+        height: 72%;
+        margin-bottom: 60px;
+    }
+    .r-container{
+        width: 165px;
+        height: 165px;
+        h1{
+            font-size: 19px;
+        }
+        h2{
+            font-size: 13px;
+        }
+    }
+    .elem{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (width > 425px ) and (width <1024px){
+    .ptop{
+        padding: 0 0;
+    }
+    .p-btm{
+        background-color: aqua;
+    }
+    .r-container{
+        width: 220px;
+        height: 250px;
+       
     }
 }
